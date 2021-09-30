@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('assets/login-back.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    box-shadow: #ffffff99 0px 0px 9px 0px;
+    background: #ffffff11;
+    width: 30vw !important;
+    backdrop-filter: blur(3px);
+}
+
+.center-div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+form {
+    padding: 0 2em;
+}
+
+#login .title > span{
+    font-size: .7em;
+}
